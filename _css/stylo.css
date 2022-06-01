@@ -16,6 +16,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    color: #20a78a;
 }
 
 /* INTERFACE*/
@@ -31,14 +32,14 @@ div#interface {
 /* CABEÇALHO NO INICIO DO SITE com imagem*/
 header#cabecalho {
     border-bottom: 1px #606060 solid;
-    height: 150px;
+    height: 80px;
 }
 
 /* CABEÇALHO OS 2 PRIMEIROS TITULOS*/
 header#cabecalho h1 {
     font-family: 'FonteLogo', sans-serif;
     font-size: 30pt;
-    color: rgba(0, 0, 0, .5);
+    color: #20a79b;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0;
     margin-bottom: 0;
@@ -47,7 +48,7 @@ header#cabecalho h1 {
 header#cabecalho h3 {
     font-family: 'FonteLogo2', sans-serif;
     color: #888888;
-    font-size: 15pt;
+    font-size: 16pt;
     padding: 0;
     margin-top: 0;
 }
