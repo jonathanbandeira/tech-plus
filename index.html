@@ -4,15 +4,32 @@
 <head>
     <meta charset="pt-br">
     <title>Tech+Plus</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/apple-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/android-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/android-icon-36x36.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/android-icon-36x36.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/android-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/apple-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="_imagens/ms-icon-70x70.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="_css/stylo.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 </head>
 
 <body>
     <div id="interface">
         <header id="cabecalho">
-                <a href="#"><h1>Tech+Plus</h1></a>
-                <h3>Tudo sobre Tecnologia</h3>
+            <a href="#">
+                <h1>Tech+Plus</h1>
+            </a>
+            <h3>Tudo sobre Tecnologia</h3>
             </hgroup>
         </header>
 
@@ -20,7 +37,7 @@
             <article id="noticia-principal">
                 <header id="cabecalho-artigo">
                     <hgroup>
-                        <h3>Tecnologias > Inovações</h3>
+                        <h3><a href="#">Tecnologias</a> > <a href="#"> Inovações</a></h3>
                         <h1>O que é a Tech+Plus?</h1>
                         <h3>por Jonathan Bandeira e Rickison Entringer</h3>
                     </hgroup>
@@ -35,8 +52,16 @@
                 <figure class="foto-legenda">
                     <figcaption>
                         <h3>Tech+Plus</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat labore veritatis itaque possimus, ipsam illum vero voluptatum laboriosam deleniti nostrum enim nobis explicabo ullam sint. Eius minima doloremque fuga at, soluta deserunt dolorum aperiam odio laborum ab laboriosam ad eaque sapiente deleniti? Perspiciatis, odio iusto amet quo dicta ullam sapiente?</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat labore veritatis itaque possimus, ipsam illum vero voluptatum laboriosam deleniti nostrum enim nobis explicabo ullam sint. Eius minima doloremque fuga at, soluta deserunt dolorum aperiam odio laborum ab laboriosam ad eaque sapiente deleniti? Perspiciatis, odio iusto amet quo dicta ullam sapiente?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat labore veritatis itaque
+                            possimus, ipsam illum vero voluptatum laboriosam deleniti nostrum enim nobis explicabo ullam
+                            sint. Eius minima doloremque fuga at, soluta deserunt dolorum aperiam odio laborum ab
+                            laboriosam ad eaque sapiente deleniti? Perspiciatis, odio iusto amet quo dicta ullam
+                            sapiente?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat labore veritatis itaque
+                            possimus, ipsam illum vero voluptatum laboriosam deleniti nostrum enim nobis explicabo ullam
+                            sint. Eius minima doloremque fuga at, soluta deserunt dolorum aperiam odio laborum ab
+                            laboriosam ad eaque sapiente deleniti? Perspiciatis, odio iusto amet quo dicta ullam
+                            sapiente?</p>
                     </figcaption>
                     <img src="_imagens/Logística-4.0.jpg">
                 </figure>
@@ -76,16 +101,6 @@
                     vitae
                     unde! Fugiat cum aliquid ex animi, fuga officiis sunt voluptas nam non, sapiente rem mollitia,
                     voluptates vitae laborum quaerat corrupti nostrum veniam!</p>
-                    <h2>Planos</h2>
-                    <body>
-                        <div class="conteiner">
-                            <div>1</div>
-                            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
-                            <div>2</div>
-                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                            
-                        </div>
-                    </body>
                 <h2>O que fazemos?</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad eveniet eos beatae, magni soluta eius
                     voluptatum laborum ipsum accusantium, debitis non laudantium nulla error omnis corrupti molestias
@@ -99,40 +114,42 @@
                     <source src="_media/how-it-feels.mp4" type="video/ogg">
                     Desculpe, mas não foi possível carregar o Vídeo
                 </video>
+                <h2>Planos de Fidelidade</h2>
+                <div class="conteiner">
+                    <div><a href="#">1</a> </div>
+                    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+                    <div><a href="#">2</a></div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                </div>
+                <h2>Deixe sua mensagem</h2>
+                <form action="/pagina-processa-dados-do-form" method="post">
+
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" />
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" />
+                    </div>
+                    <div>
+                        <label for="msg">Mensagem:</label>
+                        <textarea id="msg"></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Enviar sua mensagem</button>
+                    </div>
+                </form>
+
             </article>
         </section>
         <aside id="lateral">
 
             <h1>Outras Notícias</h1>
-            <h1>Vídeos mais recentes</h1>
-
-            <video id="filme-index" controls="controls" poster="_imagens/botao-de-reproducao-da-pagina-da-web-do-player-de-video-conceito-de-multimidia-de-streaming-de-video-icone-de-vetor-3d-estilo-minimalista-dos-desenhos-animados_449361-573.webp">
-                <source src="_media/how-it-feels.mp4" type="video/mp4">
-                <source src="_media/how-it-feels.mp4" type="video/ogg">
-                Desculpe, mas não foi possível carregar o Vídeo
-            </video>
-            <video id="filme-index" controls="controls" poster="_imagens/botao-de-reproducao-da-pagina-da-web-do-player-de-video-conceito-de-multimidia-de-streaming-de-video-icone-de-vetor-3d-estilo-minimalista-dos-desenhos-animados_449361-573.webp">
-                <source src="_media/how-it-feels.mp4" type="video/mp4">
-                <source src="_media/how-it-feels.mp4" type="video/ogg">
-                Desculpe, mas não foi possível carregar o Vídeo
-            </video>
-            <video id="filme-index" controls="controls" poster="_imagens/botao-de-reproducao-da-pagina-da-web-do-player-de-video-conceito-de-multimidia-de-streaming-de-video-icone-de-vetor-3d-estilo-minimalista-dos-desenhos-animados_449361-573.webp">
-                <source src="_media/how-it-feels.mp4" type="video/mp4">
-                <source src="_media/how-it-feels.mp4" type="video/ogg">
-                Desculpe, mas não foi possível carregar o Vídeo
-            </video>
 
             <h2>Novidades no Tech+Plus</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, recusandae dolorem, ea esse fugiat
-                unde laborum dolore voluptatem ipsam minima tenetur necessitatibus aperiam assumenda. Cumque dolores
-                tenetur exercitationem doloremque architecto, vitae voluptatem ipsam consectetur amet, eaque eveniet
-                natus aspernatur totam optio numquam! Molestias quisquam explicabo itaque quia unde quis!</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad eveniet eos beatae, magni soluta eius
-                voluptatum laborum ipsum accusantium, debitis non laudantium nulla error omnis corrupti molestias vitae
-                unde! Fugiat cum aliquid ex animi, fuga officiis sunt voluptas nam non, sapiente rem mollitia,
-                voluptates vitae laborum quaerat corrupti nostrum veniam!</p>
-
-            <video id="filme-index" controls="controls" poster="_imagens/botao-de-reproducao-da-pagina-da-web-do-player-de-video-conceito-de-multimidia-de-streaming-de-video-icone-de-vetor-3d-estilo-minimalista-dos-desenhos-animados_449361-573.webp">
+            <video id="filme-index" controls="controls"
+                poster="_imagens/botao-de-reproducao-da-pagina-da-web-do-player-de-video-conceito-de-multimidia-de-streaming-de-video-icone-de-vetor-3d-estilo-minimalista-dos-desenhos-animados_449361-573.webp">
                 <source src="_media/how-it-feels.mp4" type="video/mp4">
                 <source src="_media/how-it-feels.mp4" type="video/ogg">
                 Desculpe, mas não foi possível carregar o Vídeo
@@ -145,20 +162,64 @@
                 voluptatum laborum ipsum accusantium, debitis non laudantium nulla error omnis corrupti molestias vitae
                 unde! Fugiat cum aliquid ex animi, fuga officiis sunt voluptas nam non, sapiente rem mollitia,
                 voluptates vitae laborum quaerat corrupti nostrum veniam!</p>
+
+            <video id="filme-index" controls="controls"
+                poster="_imagens/botao-de-reproducao-da-pagina-da-web-do-player-de-video-conceito-de-multimidia-de-streaming-de-video-icone-de-vetor-3d-estilo-minimalista-dos-desenhos-animados_449361-573.webp">
+                <source src="_media/how-it-feels.mp4" type="video/mp4">
+                <source src="_media/how-it-feels.mp4" type="video/ogg">
+                Desculpe, mas não foi possível carregar o Vídeo
+            </video>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro, recusandae dolorem, ea esse fugiat
+                unde laborum dolore voluptatem ipsam minima tenetur necessitatibus aperiam assumenda. Cumque dolores
+                tenetur exercitationem doloremque architecto, vitae voluptatem ipsam consectetur amet, eaque eveniet
+                natus aspernatur totam optio numquam! Molestias quisquam explicabo itaque quia unde quis!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad eveniet eos beatae, magni soluta eius
+                voluptatum laborum ipsum accusantium, debitis non laudantium nulla error omnis corrupti molestias vitae
+                unde! Fugiat cum aliquid ex animi, fuga officiis sunt voluptas nam non, sapiente rem mollitia,
+                voluptates vitae laborum quaerat corrupti nostrum veniam!</p>
+
+            <h1>Vídeos mais recentes</h1>
+
+            <video id="filme-index" controls="controls"
+                poster="_imagens/botao-de-reproducao-da-pagina-da-web-do-player-de-video-conceito-de-multimidia-de-streaming-de-video-icone-de-vetor-3d-estilo-minimalista-dos-desenhos-animados_449361-573.webp">
+                <source src="_media/how-it-feels.mp4" type="video/mp4">
+                <source src="_media/how-it-feels.mp4" type="video/ogg">
+                Desculpe, mas não foi possível carregar o Vídeo
+            </video>
+            <video id="filme-index" controls="controls"
+                poster="_imagens/botao-de-reproducao-da-pagina-da-web-do-player-de-video-conceito-de-multimidia-de-streaming-de-video-icone-de-vetor-3d-estilo-minimalista-dos-desenhos-animados_449361-573.webp">
+                <source src="_media/how-it-feels.mp4" type="video/mp4">
+                <source src="_media/how-it-feels.mp4" type="video/ogg">
+                Desculpe, mas não foi possível carregar o Vídeo
+            </video>
+            <video id="filme-index" controls="controls"
+                poster="_imagens/botao-de-reproducao-da-pagina-da-web-do-player-de-video-conceito-de-multimidia-de-streaming-de-video-icone-de-vetor-3d-estilo-minimalista-dos-desenhos-animados_449361-573.webp">
+                <source src="_media/how-it-feels.mp4" type="video/mp4">
+                <source src="_media/how-it-feels.mp4" type="video/ogg">
+                Desculpe, mas não foi possível carregar o Vídeo
+            </video>
+            <video id="filme-index" controls="controls"
+                poster="_imagens/botao-de-reproducao-da-pagina-da-web-do-player-de-video-conceito-de-multimidia-de-streaming-de-video-icone-de-vetor-3d-estilo-minimalista-dos-desenhos-animados_449361-573.webp">
+                <source src="_media/how-it-feels.mp4" type="video/mp4">
+                <source src="_media/how-it-feels.mp4" type="video/ogg">
+                Desculpe, mas não foi possível carregar o Vídeo
+            </video>
 
         </aside>
         <footer id="rodape">
-            <p><center>
-                <a href="#"><i class="devicon-facebook-plain colored"></i></a>
-                <a href="#"><i class="devicon-twitter-original colored"></i></a>
-                <a href="#"><i class="devicon-behance-plain colored"></i></a>
-                <a href="#"><i class="devicon-instagram-plain colored"></i></a>
-                <a href="#"><i class="devicon-github-original colored"></i></a>
-                <a href="#"><i class="devicon-discord-plain colored"></i></a>
+            <p>
+                <center>
+                    <a href="#"><i class="devicon-facebook-plain colored"></i></a>
+                    <a href="#"><i class="devicon-twitter-original colored"></i></a>
+                    <a href="#"><i class="devicon-behance-plain colored"></i></a>
+                    <a href="#"><i class="devicon-instagram-plain colored"></i></a>
+                    <a href="#"><i class="devicon-github-original colored"></i></a>
+                    <a href="#"><i class="devicon-discord-plain colored"></i></a>
                     <br><br> Copyright &copy; 2022 by <a href="#">Tech+Plus</a>
                     <br>
-                </center></p>
-            
+                </center>
+            </p>
+
         </footer>
     </div>
 </body>
